@@ -68,8 +68,8 @@ export default function Model() {
 
   return (
     <group scale={viewport.width / 3.75}>
-      {/* <Text
-        font={"/fonts/PPNeueMontreal-Bold.otf"}
+      <Text
+        font={"/fonts/PPNeueMontreal-Regular.ttf"}
         position={[0, 0, -1]}
         fontSize={0.5}
         color="white"
@@ -77,7 +77,7 @@ export default function Model() {
         anchorY="middle"
       >
         hello world!
-      </Text> */}
+      </Text>
       <mesh ref={torus} {...nodes.Torus002}>
         <MeshTransmissionMaterial {...materialProps} />
       </mesh>
