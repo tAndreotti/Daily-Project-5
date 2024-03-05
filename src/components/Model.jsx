@@ -75,8 +75,9 @@ export default function Model() {
         color="white"
         anchorX="center"
         anchorY="middle"
+        href="font"
       >
-        hello world!
+        Teste de Fonte e posição
       </Text>
       <mesh ref={torus} {...nodes.Torus002}>
         <MeshTransmissionMaterial {...materialProps} />
