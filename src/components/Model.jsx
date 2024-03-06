@@ -68,7 +68,7 @@ export default function Model() {
 
   return (
     <group scale={viewport.width / 3.75}>
-      <Text
+      {/* <Text
         font={"/fonts/PPNeueMontreal-Regular.ttf"}
         position={[0, 0, -1]}
         fontSize={0.5}
@@ -78,7 +78,7 @@ export default function Model() {
         href="font"
       >
         Teste de Fonte e posição
-      </Text>
+      </Text> */}
       <mesh ref={torus} {...nodes.Torus002}>
         <MeshTransmissionMaterial {...materialProps} />
       </mesh>
